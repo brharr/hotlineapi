@@ -7,6 +7,7 @@ var Routes = require('./routes/incidentroutes.js');
 
 //Connect to DocumentDB using the MongDB connection point
 mongoose.connect(process.env.CUSTOMCONNSTR_docdb);
+//mongoose.connect('mongodb://incidentdb:SoC5nXpZQswfVTQeQHkyBLWR4SCj0wXPZvvosYIkFHTtiLsvhgMfFvlIb0nXIkS3VZFrwrEPTusTaIDBmdQa9g==@incidentdb.documents.azure.com:10250/?ssl=true');
 var port = process.env.PORT || 1337
 
 app.set('port', port);
