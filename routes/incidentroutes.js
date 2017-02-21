@@ -4,7 +4,7 @@ var router = express.Router();
 var mongoose = require('mongoose');
 var Incident = require('../models/incidentmodel.js');
 
-router.get('/', function(req, res, next) {
+router.get('incidents/', function(req, res, next) {
     console.log('Retrieving all Incidents within the Database.');
     Incident.find(function (err, incidents) {
         if (err) return next(err);
@@ -12,7 +12,7 @@ router.get('/', function(req, res, next) {
     });
 });
 
-router.get('/:id', function(req, res, next) {
+router.get('incidents/:id', function(req, res, next) {
     console.log('Retrieving Incident where ID is: '+ req.params.id);
     Incident.findById(req.params.id, function(err, post) {
         if (err) return next(err);
@@ -25,7 +25,7 @@ router.get('/:id', function(req, res, next) {
     });
 });
 
-router.post('/', function(req, res, next) {
+router.post('incidents/', function(req, res, next) {
     console.log('Creating new Incident within Database');
     Incident.create(req.body, function(err, post) {
         if (err) return next(err);
@@ -33,7 +33,7 @@ router.post('/', function(req, res, next) {
     });
 });
 
-router.put('/:id', function(req, res, next) {
+router.put('incidents/:id', function(req, res, next) {
     console.log('Updating Incident where id is: ' + req.params.id);
     Incident.findByIdAndUpdate(req.params.id, req.body, function(err, post) {
         if (err) return next(err);
