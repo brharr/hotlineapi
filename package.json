@@ -1,5 +1,5 @@
 {
-  "name": "DogAdoption",
+  "name": "SuspiciousActivityAPI",
   "version": "1.0.0",
   "description": "Test HowTo Application for Azure Functions, DocumentDB, and PowerApps",
   "main": "index.js",
