@@ -14,6 +14,8 @@ These instruction will allow you to deploy this application directly from Github
 * [Setup Continuous Deployment from Github Repo](https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-deploy?toc=%2fazure%2fapp-service-api%2ftoc.json#a-namecontinuousdeploymentadeploy-continuously-from-a-cloud-based-source-control-service)
 * [Add a New Connection String setting to the App called CUSTOMCONNSTR_docdb](https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-configure?toc=%2fazure%2fapp-service-api%2ftoc.json)
 
+NOTE: Please note that I am assuming that you already have either a MongoDB database available or a MongoDB based CosmosDB instance available to get the necessary connection string from.
+
 ## Built With
 
 * [NodeJS](https://nodejs.org) - Development engine and application server
