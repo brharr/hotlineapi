@@ -4,7 +4,7 @@ This is one project of two projects that makes up the Suspicious Activity Bot Ap
 
 ## Motivation
 
-I built these two projects to show how easy it is to create and deploy a Bot Application in either the Azure Commerical or Azure Government regions while also showing and discussing the differences.
+I built these two projects to show how easy it is to create and deploy a Bot Application in either the Azure Commerical or Azure Government regions while also showing and discussing the differences. See the blog post above for more information.
 
 ## Installation
 
