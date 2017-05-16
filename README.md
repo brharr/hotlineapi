@@ -1,6 +1,6 @@
 ## Synopsis
 
-This is one project of two projects that makes up the Suspicious Activity Bot Application for Azure Commerical and Government. This particular project is the REST API that will be leveraged by either the Bot Application or any data retrieval No Code system to view and modify the records being stored. A full description of the project can be found in the following blog post: [https://blogs.msdn.microsoft.com/cloud_solution_architect](https://blogs.msdn.microsoft.com/cloud_solution_architect)
+This is one project of two projects that makes up the Suspicious Activity Bot Application for Azure Commerical and Government. This particular project is the REST API that will be leveraged by either the Bot Application or any data retrieval No Code system to view and modify the records being stored. A full description of the project can be found in the following blog post: [Deploying a Suspicious Activity Bot in Azure Commercial or Azure Government](https://blogs.msdn.microsoft.com/cloud_solution_architect/2017/05/16/deploying-a-suspicious-activity-bot-in-azure-commercial-or-azure-government)
 
 ## Motivation
 
